@@ -50,8 +50,6 @@ func getPlainText(htmlCode string) string {
 		plainText.WriteString(" ")
 	}
 
-	//fmt.Println(plainText.String())
-
 	return plainText.String()
 }
 
